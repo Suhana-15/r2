@@ -5,6 +5,9 @@ app.get('/', function (req, res) {
   res.send('Hello World')
 })
 
+app.get('/courses',function(req,res){
+  res.send ('print all courses')
+})
 app.listen(4000, ()=>{
     console.log("Started server");
 }
